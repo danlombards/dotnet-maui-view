@@ -10,7 +10,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
         
-        
         // Carregue o conteúdo do arquivo XAML em sua página
         
         global::Microsoft.Maui.Controls.Xaml.Extensions.LoadFromXaml(minhaPagina, typeof(LixoPage));
